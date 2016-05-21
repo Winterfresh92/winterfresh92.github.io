@@ -218,3 +218,8 @@ section,
 .posts {
 	margin-top: 24px;
 }
+
+.meta {
+	display: inline-block;
+	font-size: 16;
+}
