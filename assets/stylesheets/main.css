@@ -123,15 +123,17 @@ section,
 }
 
 .container a {
+	text-decoration: underline;
 	color: #083A1E;
 }
 
 .container a:hover {
+	text-decoration: underline;
 	color: #7E9FCF;
 }
 
 .container ul li {
-	color: #ddd;
+	color: #555;
 }
 
 /*
