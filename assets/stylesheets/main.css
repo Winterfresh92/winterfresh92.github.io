@@ -132,10 +132,6 @@ section,
 	color: #7E9FCF;
 }
 
-.container ul li {
-	color: #555;
-}
-
 /*
   ================================
   Header
@@ -232,4 +228,8 @@ section,
 
 .posts {
 	margin-top: 24px;
+}
+
+.post-date {
+	color: #666;
 }
