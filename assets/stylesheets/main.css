@@ -217,7 +217,12 @@ section,
 */
 
 .contact-link {
+	text-decoration: none;
 	color: #002811;
+}
+
+.contact-link:hover {
+	text-decoration: none;
 }
 
 /*
