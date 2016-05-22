@@ -188,6 +188,16 @@ section,
 	padding: 32px;
 }
 
+.social-media {
+	position: relative;
+	right: 24px;
+}
+
+.social-media ul li {
+	display: inline;
+	margin-left: 10px;
+}
+
 /*
   ================================
   About
