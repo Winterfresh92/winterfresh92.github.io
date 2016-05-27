@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<title>Journey for The Eye</title>
+	<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
+	<div id="responses" class="container">
+		<div class="response">
+			Welcome to "Journey for The Eye", an interactive tale by Kevin Stubblefield! I hope you enjoy the adventure!
+		</div>
+		<div class="response">
+			<em>Use the command line beneath the text box to enter commands. You'll know commands because they'll be in <strong>bold</strong>. Depending on your screen size, you may not be able to see a full amount of text after your command. If that's the case, scroll up until you see a divider between your response and the story text. The game will begin with a few prompts to create your character.</em>
+		</div>
+	</div>
+
+	<div class="input-container">
+		<input id="input" type="text" class="input-box" name="input-box"
+			placeholder="Enter your command here" />
+	</div>
+
+	<div class="btn-container">
+		<button class="btn" name="default" onclick="defaultColor(this)" >Default</button>
+		<button class="btn" name="dark" onclick="darkColor(this)" >Dark</button>
+		<button class="btn" name="dos" onclick="dosColor(this)" >Dos</button>
+	</div>
+
+
+	<script src="js/controllers/uiController.js"></script>
+	<script src="js/models/characters.js"></script>
+	<script src="js/controllers/gameController.js"></script>
+</body>
+</html>
